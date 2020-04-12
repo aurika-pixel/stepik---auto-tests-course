@@ -4,7 +4,7 @@ from .base_page import BasePage
 
 class ProductPage(BasePage):
     def click_basket_button(self):
-        button_basket = self.browser.find_element(*ProductPageLocators.BUTTON_BASKET)
+        button_basket = self.browser.find_element(*ProductPageLocators.BUTTON_ADD_BASKET)
         button_basket.click()
 
     def check_book_name(self):
