@@ -8,10 +8,6 @@ class BasePageLocators():
     USER_ICON = (By.CSS_SELECTOR, ".icon-user")
 
 
-class MainPageLocators():
-    pass
-
-
 class LoginPageLocators():
     FORM_LOGIN = (By.CSS_SELECTOR, "#login_form")
     FORM_REGISTRATION = (By.CSS_SELECTOR, "#register_form")
@@ -19,6 +15,10 @@ class LoginPageLocators():
     FORM_REG_PASSWORD = (By.CSS_SELECTOR, "#id_registration-password1")
     FORM_REG_PASSWORD_REPEAT = (By.CSS_SELECTOR, "#id_registration-password2")
     BUTTON_REG = (By.CSS_SELECTOR, "button[name ='registration_submit']")
+
+
+class MainPageLocators():
+    pass
 
 
 class ProductPageLocators():
